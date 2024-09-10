@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter amount" />
+
+    <EditText
+        android:id="@+id/edtFromCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From Currency (e.g. USD)" />
+
+    <EditText
+        android:id="@+id/edtToCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To Currency (e.g. EUR)" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversion Result"
+        android:paddingTop="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"/>
+
+</LinearLayout>
